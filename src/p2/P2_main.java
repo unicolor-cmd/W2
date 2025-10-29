@@ -1,6 +1,13 @@
 package p2;
 
+import java.util.Scanner;
+
 public class P2_main {
-    int i = 1;
-    boolean b = true;
+    public static void main(String[] args) {
+        int i = 0;
+        boolean b = false;
+        if (i > 10) {
+            b = true;
+        }
+    }
 }
