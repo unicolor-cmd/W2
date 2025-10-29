@@ -2,6 +2,7 @@ package h2;
 
 public class H2_main {
     public static void main(String[] args) {
+        // wir sollen 'else' oder sonstiges noch nicht benutzen?
         int i = 0;
         int j = 1;
         int k = 2;
