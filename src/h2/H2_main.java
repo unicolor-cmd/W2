@@ -2,7 +2,6 @@ package h2;
 
 public class H2_main {
     public static void main(String[] args) {
-        // wir sollen 'else' oder sonstiges noch nicht benutzen?
         int i = 0;
         int j = 1;
         int k = 2;
@@ -12,40 +11,35 @@ public class H2_main {
         if (i < j) {
             if (i < k) {
                 min = i;
-            }
-            if (i > k) {
+            } else {
                 min = k;
             }
 
             if (j < k) {
                 max = k;
-            }
-            if (j > k) {
+            } else {
                 max = j;
             }
-        }
-        if (i > j) {
+        } else {
             if (i > k) {
                 max = i;
-            }
-            if (i < k) {
+            } else {
                 max = k;
             }
 
             if (j < k) {
                 min = j;
-            }
-            if (j > k) {
+            } else {
                 min = k;
             }
         }
 
-        System.out.println("min:");
+        /*System.out.println("min:");
         System.out.println(min);
         System.out.println();
 
         System.out.println("max:");
         System.out.println(max);
-        System.out.println();
+        System.out.println();*/
     }
 }
