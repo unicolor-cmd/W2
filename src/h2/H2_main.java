@@ -5,8 +5,8 @@ public class H2_main {
         int i = 0;
         int j = 1;
         int k = 2;
-        int min = 0;
-        int max = 0;
+        int min = -1;
+        int max = -1;
 
         if (i < j) {
             if (i < k) {
